@@ -1,0 +1,17 @@
+{
+  "name": "aws-qa-cloudnative-lab",
+  "version": "1.0.0",
+  "description": "Laboratorio QA Cloud Native con AWS",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --ci --coverage"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
